@@ -1,0 +1,17 @@
+.mainApp{
+    margin-top: 2rem;
+}
+ .card {
+     width: 530px;
+     margin-top: 3px;
+     min-width: 300px;
+     padding: 10px;
+     border-radius: 20px;
+     background: #fff;
+     position: relative
+ }
+.erro{
+    color: #d40202;
+    text-decoration: underline;
+    font-size: 0.6rem;
+}
