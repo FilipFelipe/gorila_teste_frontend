@@ -35,7 +35,7 @@ async function getData(id) {
 function buscarCDB() {
     const input = document.getElementById("idcdb").value;
     changeName(false, 'Buscando..')
-    window.location.href = `/pages/chart.html?id=${input}`;
+    window.location.href = `/gorila_teste_frontend/pages/chart.html?id=${input}`;
 }
 async function drawChart(array, id) {
     if (array.length < 1) {

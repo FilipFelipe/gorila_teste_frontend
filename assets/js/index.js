@@ -1,7 +1,7 @@
 const Api = 'https://dev-gorila.herokuapp.com'
 
 function redirect(id) {
-    window.location.href = `/pages/chart.html?id=${id}`;
+    window.location.href = `/gorila_teste_frontend/pages/chart.html?id=${id}`;
 }
 
 function consultar() {
